@@ -1,16 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T19:53:10.526Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.101 Safari/537.36" etag="7-rFacdahe8XHgzPVrqw" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-26T19:55:45.410Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.101 Safari/537.36" etag="1f3MB5w_oFEdRaf_boqz" version="20.5.1" type="github">
   <diagram name="Page-1" id="c9db0220-8083-56f3-ca83-edcdcd058819">
     <mxGraphModel dx="1422" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
-        <mxCell id="GYSKJsF4s9RLotlX5QOW-1" value="" style="html=1;shadow=0;dashed=0;fillColor=#F8F9FA;strokeColor=none;fontSize=16;fontColor=#181819;align=left;spacing=2;spacingLeft=55;" parent="1" vertex="1">
+        <mxCell id="GYSKJsF4s9RLotlX5QOW-1" value="" style="html=1;shadow=0;dashed=0;fillColor=#FFFFFF;strokeColor=none;fontSize=16;fontColor=#181819;align=left;spacing=2;spacingLeft=55;imageWidth=30;" parent="1" vertex="1">
           <mxGeometry x="55" y="70" width="1130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="GYSKJsF4s9RLotlX5QOW-2" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.logo;fillColor=#54407A;strokeColor=none;sketch=0;" parent="GYSKJsF4s9RLotlX5QOW-1" vertex="1">
-          <mxGeometry width="40" height="40" relative="1" as="geometry">
-            <mxPoint x="10" y="10" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="GYSKJsF4s9RLotlX5QOW-3" value="Datos&lt;br&gt;Nombre de la mascota&lt;br&gt;sexo&lt;br&gt;raza&lt;br&gt;edad" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=bottom;align=left;spacing=20;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="740" y="220" width="250" height="300" as="geometry" />
@@ -46,13 +41,13 @@
           <mxGeometry y="90" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="K6XgrrVtK3mDi8RKVAya-15" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="520" y="630" width="310" height="310" as="geometry" />
+          <mxGeometry x="465" y="630" width="310" height="310" as="geometry" />
         </mxCell>
         <mxCell id="K6XgrrVtK3mDi8RKVAya-17" value="23 horas" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=30;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="605" y="720" width="140" height="50" as="geometry" />
+          <mxGeometry x="550" y="700" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="K6XgrrVtK3mDi8RKVAya-19" value="Tiempo restante&lt;br&gt;para siguiente dosis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=25;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="550" y="765" width="250" height="70" as="geometry" />
+          <mxGeometry x="495" y="760" width="250" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
