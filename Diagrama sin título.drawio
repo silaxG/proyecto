@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T17:25:02.577Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.101 Safari/537.36" etag="2xTNKWn7zIclXn3Otf3I" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-27T17:43:35.364Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.101 Safari/537.36" etag="qleCbf2fhg5XJUYuRG1-" version="20.5.1" type="github">
   <diagram name="Page-1" id="c9db0220-8083-56f3-ca83-edcdcd058819">
-    <mxGraphModel dx="1354" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -48,9 +48,6 @@
         </mxCell>
         <mxCell id="K6XgrrVtK3mDi8RKVAya-19" value="Tiempo restante&lt;br&gt;para siguiente dosis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=25;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="460" y="410" width="250" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="tq_NPPG4tRqoJK0VEDjJ-25" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="155" y="725" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
