@@ -45,3 +45,18 @@ footer a:hover{
 .separation-right{
     margin-right:50px;
 }
+.img-inicio{
+    width: 150px;
+    height: 150px;
+}
+#ingreso{
+    background-color: #c26727;
+    color: white;
+}
+.fondo-log{
+    background-image: url(https://lh3.googleusercontent.com/IUCOxRbEkXXjPP_B0NDxV_-c_lWURQGo3w96_gzDZpwl3yzQspBtPi9xJTmv9cFUJerHs4ctUpBYYGXtD6sxO1Tdp1kPtq9SXZl6wSwY33PIZLBac6akM8BaYHjtYWwEUV_zyernOX4s_4PixVa3ZN2QOdUDfj3mfI2kCnQoWqpXjPJ8vUAvSEr6k5aoLhxtw_LNmErm9QHc6rUmMSewkcCNVpSv3OmvzA03kZCD06NhzdRQFbyabfXfBWIU4pGNGUxIMsE14vgXHokkjIpGX1GHBCeHxi_BQfvVXX7agOQyoP4arPlizLL9oUByq-1dQDFl-M8HWnoCHJ8HRia-hNnKydaNa8hEBzNTL84tNbPTb_FF065X-WVNtJ9H5n7RUMhH20T2yeHiHVh5VnXHWr1WJybFs9QsNICz2MMAOSGs6xuUOpIuksEKPJnobwUete8MI8i1KQZSXfYgMkkShHWeh6wmqpNtREClZJadoHcTs2CMhbd4PEb709wGMNowConGz8eQhnJqgiVuEv2OizdiwyXUy2Gr8Lml7Ps8F6noq_hLOsyu-z0D_4YE30NZvw6G8U5qbkd_oBDVYjY3W0IFjJ9Xd30RE1j9HRXDatQrHN_KRXR6UzKqvUXUzCNrZFFSh8yZjtP5pReDXWOVKGaqJjknOTe8pqvdcMztN2qbfufR3XGtIEt_wpDgCbQKbAJ6xusPXysop9v-lvDuykui2fcGvjR5_rxCEPeQGkLF0m1fdsaSIMWa7SEXNmDX8qrCggv76NWnpWwcHrnr4ZEyD4goO0LFzTuy5TANZlecQL_riQe3FOOUygiQBXtSNJI9mswnqabaW5p6LvufmnW-cPb-F5hb5OmhS9ZlmzXp0aOJMKpXrGhwaHHrQgk5VkAIprUWkwS9K2tJbCcF0nAkzFSTAnVi8IkDR2jw_qBc=w1668-h938-no?authuser=0)
+    ;background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
