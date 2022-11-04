@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <h1>Formulario</h1>
+    <!--Etiqueta para crear formularios-->
+    <form action=""></form>
+    <!--Aqui van los campos del formulario-->
+    <label for="Nombre">Nombre</label>
+    <input type="text" name="Nombre" id="Nombre">
+    <!--Input para ingresar claves o contraseñas-->
+    <label for="clave">Contraseña</label>
+    <input type="password" name="clave" id="clave">
+    <!--input para ingresar fechas-->
+    <label for="fecha"></label>
+    <input type="date" name="fecha" id="fecha">
+    <!--input para ingresar emails-->
+    <label for="email">Correo</label>
+    <input type="email" name="email" id="email">
+    <!--input para ingresar numeros-->
+    <label for="numero">Numero</label>
+    <input type="number" name="numero" id="numero" min="0">
+    <!--input para seleccionar opciones-->
+    <label for="equipo">River</label>
+    <input type="radio" name="equipo" id="equipo" value="1">
+    <label for="equipo">Racing</label>
+    <input type="radio" name="equipo" id="equipo1" value="2">
+    
+    <!--Selector-->
+    <select name="bebidas" id="bebidas">
+        <option value="pepsi">Pepsi</option>
+        <option value="coca-cola">Coca cola</option>
+        <option value="sprite">Sprite</option>
+        <!--Agregar mucho texto-->
+        <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
+        <!--Botones para completar el formulario-->
+        <input type="button" value="Enviar">
+        <input type="submit" value="Guardar">
+        <button>Cancelar</button>
+    </select>
+
+</body>
+</html>
