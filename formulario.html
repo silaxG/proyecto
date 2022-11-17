@@ -6,101 +6,161 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="/styles.css">
   <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
 </head>
 
-<body>
-  <form action="">
+<body class="fondo-form">
+  <header>
 
-    <div class="container border border-dark">
+  </header>
+
+  <main>
+    <div class="container border border-danger bg-success">
       <h4>Datos personales</h4>
-      <div class="row">
-        <div class="col">
-          <label for="Nombre">Nombre completo</label>
-          <input type="text">
-        </div>
-        <div class="col">
+      <div class="row ms-5 me-5">
+        <div class="col-sm-12">
+          <label for="Nombre">Nombre</label>
+          <input type="text" class="form-control" placeholder="ej: Lautaro" aria-label="Nombre" id="Nombre">
+          <label for="Apellido">Apellido</label>
+          <div class="row g-3">
+            <div class="col-sm-7">
+              <input type="text" class="form-control" placeholder="ej: Zurita" aria-label="Apellido" id="Apellido">
+            </div>
+          </div>
+          <div class="row g-3">
+            <div class="col-sm-7">
+              <label for="Correo">Correo electronico</label>
+              <input type="email" class="form-control" aria-label="Correo" id="Correo">
+            </div>
+            <form action="">
+              <div class="row m-2">
+                <div class="col">
+                  <h4>Direccion</h4>
+                </div>
+              </div>
+              <div class="row g-3">
+                <div class="col-sm-7">
+                  <input type="text" class="form-control" placeholder="Ciudad" aria-label="City">
+                </div>
+                <div class="col-sm">
+                  <input type="text" class="form-control" placeholder="Pais" aria-label="State">
+                </div>
+                <div class="col-sm">
+                  <input type="number" min="0" class="form-control" placeholder="Codigo postal" aria-label="Zip">
+                </div>
 
-          <label for="Telefono">Numero de telefono</label>
-          <input type="number" name="Telefono" id="Telefono">
-        </div>
+              </div>
+              <div class="row g-3">
+                <div class="col-sm-7">
+                  <input type="text" class="form-control" placeholder="Provincia/departamento" aria-label="Provincia">
+                </div>
+                <div class=" col-sm">
+                  <input type="text" class="form-control" placeholder="Piso/departamento" aria-label="Piso">
+                </div>
+                <div class="col-sm">
+                  <input type="text" class="form-control" placeholder="Calle y numero" aria-label="Calle">
+                </div>
+              </div>
 
-        <div class="row mt-1">
-          <div class="col">
-            <label for="Correo">Correo electronico</label>
-            <input type="email">
+
+
+
+              <!--Toda la parte de adentro del borde negro-->
+
+              <div class=" mt-5 container border border-dark">
+                <h4 class="mt-3">Informacion de la mascota </h4>
+                <div class="row">
+                  <div class="col">
+                    <label for="Mascota">Tipo de mascota</label>
+                    <select class="form-select" multiple aria-label="multiple select example">
+                      <option selected>Seleccionar...
+                      </option>
+                      <option value="1">Gato</option>
+                      <option value="2">perro</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+
+                    <label for="Nombre1">Nombre de la mascota</label>
+                    <input type="text" id="Nombre1">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <label for="Edad">Edad de la mascota:</label>
+                    <select class="form-select" aria-label="Seleccionar">
+                      <option selected>Seleccionar</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                      <option value="13">13</option>
+                      <option value="14">14</option>
+                      <option value="15">15</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="Peso" class="form-label">Peso</label>
+                  <input type="number" min="0" class="form-control" id="Peso" aria-describedby="Peso">
+                </div>
+                <p>Sexo del animal</p>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="SexoM">
+                  <label class="form-check-label" for="Sexom">
+                    Macho
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="SexoF" checked>
+                  <label class="form-check-label" for="SexoF">
+                    Hembra
+                  </label>
+                  <p>¿Esterilizado?</p>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="FlexRadioDefault" id="Esterilizado1">
+                    <label class="form-check-label" for="Esterilizado1">
+                      Si
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="FlexRadioDefault" id="Esterilizado2" checked>
+                    <label class="form-check-label" for="Esterilizado2">
+                      No
+                    </label>
+                    <div class="mb-3">
+                      <label for="Color" class="form-label">Color de la mascota</label>
+                      <input type="text" class="form-control" id="Color" aria-describedby="Color">
+                    </div>
+                    <div class="row">
+                      <label for="formFileLg" class="form-label">Imagen de la mascota</label>
+                      <input class="form-control form-control-lg mb-3" id="formFileLg" type="file">
+                    </div>
+
+                  </div>
+                </div>
+
+            </form>
 
           </div>
-        </div>
-      </div>
-      <div class="row m-2">
-        <div class="col">
-          <h4>Direccion</h4>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col"><input type="text" name="Direccion" id="Calle" placeholder="Calle y numero"></div>
-        <div class="col"><input type="text" name="Direccion" id="piso" placeholder="Piso/departamento"></div>
-      </div>
-      <div class="row">
-        <div class="col"><input type="text" name="direccion" id="ciudad" placeholder="Ciudad"></div>
-        <div class="col"><input type="text" name="direccion" id="provicincia" placeholder="provincia/departamento"></div>
-      </div>
-      <div class="row">
-        <div class="col"> <input type="text" name="direccion" id="Pais" placeholder="Pais"></div>
-      </div>
-      
-      
-      
-      
-      
-     
-      <div class="container border border-dark">
-        <h4>Informacion de la mascota</h4>
-        <div class="row">
-          <div class="col">
+          <!--Boton para acabar con el formulario-->
+          <input class="btn mb-2" type="submit" id="success" value="Enviar">
+          <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  </main>
+  <footer>
 
-            <label for="Animal">Tu mascota es:</label>
-            <select name="Animal" id="Animal">
-              <option value="Perro">Perro</option>
-              <option value="Gato">Gato</option>
-            </select>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-
-            <label for="Nombre1">Nombre de la mascota</label>
-            <input type="text" id="Nombre1">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <label for="Edad">Edad de la mascota:</label>
-            <select name="edad" id="">
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
-              <option value="7">7</option>
-              <option value="8">8</option>
-              <option value="9">9</option>
-              <option value="10">10</option>
-              <option value="11">11</option>
-              <option value="12">12</option>
-              <option value="13">13</option>
-              <option value="14">14</option>
-              <option value="15">15</option>
-            </select>
-          </div>
-        </div>
-      </div>
-
-  </form>
-
-  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  </footer>
 </body>
 
 </html>

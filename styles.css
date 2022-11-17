@@ -59,4 +59,11 @@ footer a:hover{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.fondo-form{
+    background-image: url(/assets/img/fondo-formulario.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#success{
+    background-color: #0B6E41;
+}
