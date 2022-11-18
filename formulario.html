@@ -11,7 +11,20 @@
 </head>
 
 <body class="fondo-form">
-  <header>
+  <header class="container-fluid bg-light" id="header">
+    <nav class="navbar bg-light">
+      <div class="container-fluid">
+        <img class="navbar-brand logo" src="/assets/img/diseno-logo-perro-hueso_148584-218.jpg" alt=""></a>
+        <div class="d-flex justify-content-end">
+
+          <button class="btn btn-outline logo separation-right" type="button""><img class=" boton"
+            src="/assets/img/instagram.png" alt=""></button>
+          <button class="btn btn-outline logo" type="button""><img class=" boton" src="/assets/img/facebook.png"
+            alt=""></button>
+        </div>
+        </form>
+      </div>
+    </nav>
 
   </header>
 
@@ -33,132 +46,151 @@
               <label for="Correo">Correo electronico</label>
               <input type="email" class="form-control" aria-label="Correo" id="Correo">
             </div>
-            <form action="">
-              <div class="row m-2">
-                <div class="col">
-                  <h4>Direccion</h4>
-                </div>
+            <div class="row g-3">
+              <div class="col-sm-7">
+                <label for="Contraseña">Contraseña</label>
+                <input type="password" class="form-control" aria-label="Contraseña" id="Contraseña">
               </div>
-              <div class="row g-3">
-                <div class="col-sm-7">
-                  <input type="text" class="form-control" placeholder="Ciudad" aria-label="City">
-                </div>
-                <div class="col-sm">
-                  <input type="text" class="form-control" placeholder="Pais" aria-label="State">
-                </div>
-                <div class="col-sm">
-                  <input type="number" min="0" class="form-control" placeholder="Codigo postal" aria-label="Zip">
-                </div>
-
+              <div class="col-sm-7">
+                <label for="Contraseña1"></label>
+                <input type="password" class="form-control" aria-label="Contraseña1" id="Contraseña1">
               </div>
-              <div class="row g-3">
-                <div class="col-sm-7">
-                  <input type="text" class="form-control" placeholder="Provincia/departamento" aria-label="Provincia">
-                </div>
-                <div class=" col-sm">
-                  <input type="text" class="form-control" placeholder="Piso/departamento" aria-label="Piso">
-                </div>
-                <div class="col-sm">
-                  <input type="text" class="form-control" placeholder="Calle y numero" aria-label="Calle">
-                </div>
-              </div>
-
-
-
-
-              <!--Toda la parte de adentro del borde negro-->
-
-              <div class=" mt-5 container border border-dark">
-                <h4 class="mt-3">Informacion de la mascota </h4>
-                <div class="row">
+              <form action="">
+                <div class="row m-2">
                   <div class="col">
-                    <label for="Mascota">Tipo de mascota</label>
-                    <select class="form-select" multiple aria-label="multiple select example">
-                      <option selected>Seleccionar...
-                      </option>
-                      <option value="1">Gato</option>
-                      <option value="2">perro</option>
-                    </select>
+                    <h4>Direccion</h4>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col">
+                <div class="row g-3">
+                  <div class="col-sm-7">
+                    <input type="text" class="form-control" placeholder="Ciudad" aria-label="City">
+                  </div>
+                  <div class="col-sm">
+                    <input type="text" class="form-control" placeholder="Pais" aria-label="State">
+                  </div>
+                  <div class="col-sm">
+                    <input type="number" min="0" class="form-control" placeholder="Codigo postal" aria-label="Zip">
+                  </div>
 
-                    <label for="Nombre1">Nombre de la mascota</label>
-                    <input type="text" id="Nombre1">
+                </div>
+                <div class="row g-3">
+                  <div class="col-sm-7">
+                    <input type="text" class="form-control" placeholder="Provincia/departamento" aria-label="Provincia">
+                  </div>
+                  <div class=" col-sm">
+                    <input type="text" class="form-control" placeholder="Piso/departamento" aria-label="Piso">
+                  </div>
+                  <div class="col-sm">
+                    <input type="text" class="form-control" placeholder="Calle y numero" aria-label="Calle">
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col">
-                    <label for="Edad">Edad de la mascota:</label>
-                    <select class="form-select" aria-label="Seleccionar">
-                      <option selected>Seleccionar</option>
-                      <option value="1">1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                      <option value="4">4</option>
-                      <option value="5">5</option>
-                      <option value="6">6</option>
-                      <option value="7">7</option>
-                      <option value="8">8</option>
-                      <option value="9">9</option>
-                      <option value="10">10</option>
-                      <option value="11">11</option>
-                      <option value="12">12</option>
-                      <option value="13">13</option>
-                      <option value="14">14</option>
-                      <option value="15">15</option>
-                    </select>
+
+
+
+
+                <!--Toda la parte de adentro del borde negro-->
+
+                <div class=" mt-5 container border border-dark">
+                  <h4 class="mt-3">Informacion de la mascota </h4>
+                  <div class="row">
+                    <div class="col">
+                      <label for="Mascota">Tipo de mascota</label>
+                      <select class="form-select" multiple aria-label="multiple select example">
+                        <option selected>Seleccionar...
+                        </option>
+                        <option value="1">Gato</option>
+                        <option value="2">perro</option>
+                      </select>
+                    </div>
                   </div>
-                </div>
-                <div class="mb-3">
-                  <label for="Peso" class="form-label">Peso</label>
-                  <input type="number" min="0" class="form-control" id="Peso" aria-describedby="Peso">
-                </div>
-                <p>Sexo del animal</p>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="SexoM">
-                  <label class="form-check-label" for="Sexom">
-                    Macho
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="SexoF" checked>
-                  <label class="form-check-label" for="SexoF">
-                    Hembra
-                  </label>
-                  <p>¿Esterilizado?</p>
+                  <div class="row">
+                    <div class="col">
+
+                      <label for="Nombre1">Nombre de la mascota</label>
+                      <input type="text" id="Nombre1">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <label for="Edad">Edad de la mascota:</label>
+                      <select class="form-select" aria-label="Seleccionar">
+                        <option selected>Seleccionar</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="Peso" class="form-label">Peso</label>
+                    <input type="number" min="0" class="form-control" id="Peso" aria-describedby="Peso">
+                  </div>
+                  <p>Sexo del animal</p>
                   <div class="form-check">
-                    <input class="form-check-input" type="radio" name="FlexRadioDefault" id="Esterilizado1">
-                    <label class="form-check-label" for="Esterilizado1">
-                      Si
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="SexoM">
+                    <label class="form-check-label" for="Sexom">
+                      Macho
                     </label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="radio" name="FlexRadioDefault" id="Esterilizado2" checked>
-                    <label class="form-check-label" for="Esterilizado2">
-                      No
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="SexoF" checked>
+                    <label class="form-check-label" for="SexoF">
+                      Hembra
                     </label>
-                    <div class="mb-3">
-                      <label for="Color" class="form-label">Color de la mascota</label>
-                      <input type="text" class="form-control" id="Color" aria-describedby="Color">
+                    <p>¿Esterilizado?</p>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="FlexRadioDefault" id="Esterilizado1">
+                      <label class="form-check-label" for="Esterilizado1">
+                        Si
+                      </label>
                     </div>
-                    <div class="row">
-                      <label for="formFileLg" class="form-label">Imagen de la mascota</label>
-                      <input class="form-control form-control-lg mb-3" id="formFileLg" type="file">
-                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="FlexRadioDefault" id="Esterilizado2" checked>
+                      <label class="form-check-label" for="Esterilizado2">
+                        No
+                      </label>
+                      <div class="mb-3">
+                        <label for="Color" class="form-label">Color de la mascota</label>
+                        <input type="text" class="form-control" id="Color" aria-describedby="Color">
+                      </div>
+                      <div class="row">
+                        <label for="formFileLg" class="form-label">Imagen de la mascota</label>
+                        <input class="form-control form-control-lg mb-3" id="formFileLg" type="file">
+                      </div>
 
+                    </div>
                   </div>
-                </div>
 
-            </form>
+              </form>
 
-          </div>
-          <!--Boton para acabar con el formulario-->
-          <input class="btn mb-2" type="submit" id="success" value="Enviar">
-          <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+            </div>
+
+            <input class="btn mb-2" type="submit" id="success" value="Enviar">
+            <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
   </main>
-  <footer>
+  <footer class="container-fluid bg-light" id="Footer">
+    <nav class="navbar bg-light">
+      <div class="container-fluid">
+        <img class="navbar-brand logo1" src="/assets/img/logocet30.png" alt=""></a>
+        <div class="d-flex justify-content-end">
+          <h4>Zurita Gaston Ivan <br>Curso 4°4</h4>
+
+        </div>
+        </form>
+      </div>
+    </nav>
 
   </footer>
 </body>
